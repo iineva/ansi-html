@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Tjatse/ansi-html.git"
+    "url": "https://github.com/iineva/ansi-html"
   },
   "keywords": [
     "ansi",
@@ -23,7 +23,7 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Tjatse/ansi-html/issues"
+    "url": "https://github.com/iineva/ansi-html/issues"
   },
   "engines": [
     "node >= 0.8.0"
@@ -37,7 +37,7 @@
     "lodash": "^2.4.2"
   },
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/Tjatse/ansi-html",
+  "homepage": "https://github.com/iineva/ansi-html",
   "standard": {
     "ignore": [],
     "globals": [
