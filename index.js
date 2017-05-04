@@ -143,18 +143,8 @@ ansiHTML.reset = function () {
  * @type {Object}
  */
 ansiHTML.tags = {}
-
-if (Object.defineProperty) {
-  Object.defineProperty(ansiHTML.tags, 'open', {
-    get: function () { return _openTags }
-  })
-  Object.defineProperty(ansiHTML.tags, 'close', {
-    get: function () { return _closeTags }
-  })
-} else {
-  ansiHTML.tags.open = _openTags
-  ansiHTML.tags.close = _closeTags
-}
+ansiHTML.tags.open = _openTags
+ansiHTML.tags.close = _closeTags
 
 function _setTags (colors) {
   // reset all
